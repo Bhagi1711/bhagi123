@@ -44,7 +44,7 @@ library(ggpubr)
 # Scatter plot with linear trendline
 ggplot(japan, aes(x = mag, y = depth)) +
   geom_point(color = "blue", alpha = 0.5) + 
-  geom_smooth(method = "lm", color = "red", se = FALSE) + # Linear trendline
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
   labs(
     title = "Scatter Plot of Earthquake Magnitude vs. Depth",
     x = "Magnitude",
