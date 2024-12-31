@@ -1,7 +1,5 @@
 rm(list = ls())
 
-#setwd("E://Documents//Jeevan(japan)")
-
 japan <- read.csv("Japan earthquakes 2001 - 2018.csv", header = TRUE)
 
 head(japan)
